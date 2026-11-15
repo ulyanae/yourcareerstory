@@ -31,4 +31,5 @@ use the editor.
  
 <!-- AGENT-MEMORY:BEGIN -->
 - The home and legal file routes render the supplied App export, and the root loads only the supplied index.css globally; preserve the supplied site files to keep the user's implementation intact.
+- Do not add a root index.html or manual client entry; TanStack Start generates the production document and client assets from the root shell, avoiding development-only module URLs in deployed HTML.
 <!-- AGENT-MEMORY:END -->
