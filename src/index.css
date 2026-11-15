@@ -255,6 +255,6 @@ section{padding:96px 0}
 .flips{grid-template-columns:1fr 1fr;gap:16px}
 .cards{grid-template-columns:repeat(3,1fr)}
 .persons{grid-template-columns:1fr 1fr;gap:56px}
-.room .wrap,.turn .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:56px;align-items:start}
+.room .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:56px;align-items:start}
 .turn .close{grid-column:1/-1}
 }
