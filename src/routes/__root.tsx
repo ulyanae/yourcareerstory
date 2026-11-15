@@ -10,7 +10,7 @@ import {
 } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
 
-import appCss from "../styles.css?url";
+import appCss from "../index.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 
 function NotFoundComponent() {
@@ -95,7 +95,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 44 36'%3E%3Cpath d='M6 32 C8 14 16 6 22 6 C28 6 34 12 38 22' fill='none' stroke='%23C2531F' stroke-width='4' stroke-linecap='round'/%3E%3Ccircle cx='22' cy='6' r='4.5' fill='%2313303A'/%3E%3C/svg%3E" },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" },
     ],
   }),
   shellComponent: RootShell,
@@ -106,9 +109,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <HeadContent />
+        <script src="https://cloud.umami.is/script.js" defer data-website-id="18bc6ca4-de2f-4c31-ae17-15108db2d24f" />
       </head>
       <body>
         {children}
@@ -120,6 +124,22 @@ function RootShell({ children }: { children: ReactNode }) {
 
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
+
+  useEffect(() => {
+    // The supplied site initializes once per document, so legal links must load a fresh document.
+    const followSiteLink = (event: MouseEvent) => {
+      if (!(event.target instanceof Element)) return;
+      const link = event.target.closest("a");
+      const href = link?.getAttribute("href");
+      if (href !== "/" && href !== "/privacy" && href !== "/terms") return;
+      if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) return;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      window.location.assign(href);
+    };
+    document.addEventListener("click", followSiteLink, true);
+    return () => document.removeEventListener("click", followSiteLink, true);
+  }, []);
 
   return (
     <QueryClientProvider client={queryClient}>

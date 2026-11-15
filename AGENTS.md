@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+ 
+<!-- AGENT-MEMORY:BEGIN -->
+- The home and legal file routes render the supplied App export, and the root loads only the supplied index.css globally; preserve the supplied site files to keep the user's implementation intact.
+<!-- AGENT-MEMORY:END -->
