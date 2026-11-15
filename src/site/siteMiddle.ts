@@ -48,9 +48,9 @@ export const siteMiddle = `<section class="steps" data-arc="0.66">
 <div class="head"><img src="/sean.jpg" alt="Sean Stewart" width="560" height="700" loading="lazy"><div><h3>Sean Stewart</h3><p class="role">The storyteller</p><a class="li" href="https://www.linkedin.com/in/sean-stewart-speaker/" target="_blank" rel="noopener">LinkedIn</a></div></div>
 <p class="bio">A historian by training and the author of <a href="https://www.amazon.nl/dp/B0GYYYV65N" target="_blank" rel="noopener"><em>Carved by Time</em></a>, a book on leadership lessons from history, Sean has spent 15 years coaching professionals to interview and present in their second language. He knows how to turn a career into a story people remember. He holds a Trinity CertTESOL, a qualification for teaching English to speakers of other languages.</p>
 <div class="quotes">
-<figure class="q pop"><blockquote>“He successfully ran classes on English language and culture for some of our managers, with a focus on intercultural understanding.”</blockquote><figcaption>Olga, talent director</figcaption></figure>
-<figure class="q pop"><blockquote>“Great at weaving stories into his key points.”</blockquote><figcaption>Chris, podcast host</figcaption></figure>
 <figure class="q pop"><blockquote>“He has exceptional talent in helping people to see various perspectives and this helps people to learn and grow.”</blockquote><figcaption>Tracie, learning and organisational development</figcaption></figure>
+<figure class="q pop"><blockquote>“Great at weaving stories into his key points.”</blockquote><figcaption>Chris, podcast host</figcaption></figure>
+<figure class="q pop"><blockquote>“He successfully ran classes on English language and culture for some of our managers, with a focus on intercultural understanding.”</blockquote><figcaption>Olga, talent director</figcaption></figure>
 <figure class="q pop"><blockquote>“His storytelling was wonderful and cohesive.”</blockquote><figcaption>Luke, guest on Sean’s history walking tour</figcaption></figure>
 </div>
 </div>

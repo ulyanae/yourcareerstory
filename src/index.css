@@ -29,12 +29,12 @@ section{padding:64px 0}
 .top .btn{min-height:42px;padding:9px 16px;font-size:15px}
 .hero{padding:12px 0 56px}
 .hero-grid{display:grid;gap:26px}
-.faces{position:relative;display:flex;gap:12px;padding-top:34px;width:max-content}
+.faces{position:relative;display:flex;gap:12px;padding-top:40px;width:max-content}
 .faces img{width:112px;aspect-ratio:4/5;object-fit:cover;border-radius:18px;background:var(--teal-tint)}
 .faces img:first-of-type{transform:rotate(-3deg)}
 .faces img:last-of-type{transform:rotate(3deg) translateY(10px)}
-.faces svg{position:absolute;left:-6px;right:-6px;top:0;width:calc(100% + 12px);height:44px;overflow:visible}
-.faces svg path{fill:none;stroke:var(--accent);stroke-width:3;stroke-linecap:round}
+.faces svg{position:absolute;left:-6px;right:-6px;top:0;width:calc(100% + 12px);height:auto;overflow:visible}
+.faces svg path{fill:none;stroke:var(--accent);stroke-width:2.6;stroke-linecap:round}
 .faces svg circle{fill:var(--ink)}
 .pill{display:inline-flex;align-items:center;gap:8px;background:var(--teal-tint);color:var(--teal);font-size:14px;font-weight:500;border-radius:999px;padding:6px 14px;margin-bottom:16px}
 .pill::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent)}
@@ -59,6 +59,7 @@ section{padding:64px 0}
 .ans{transition:opacity .25s}
 .ans.swap{opacity:0}
 .note{font-size:15px;color:var(--ink-soft);margin-top:18px;max-width:44ch}
+@media (max-width:759px){.room .chat{margin-top:32px}}
 .problem h2{max-width:18ch;margin-bottom:10px}
 .hint{color:var(--ink-soft);font-size:15px;margin-bottom:24px}
 .flips{display:grid;gap:12px}
@@ -249,9 +250,9 @@ footer .fine{font-size:13px}
 section{padding:96px 0}
 .hero{padding:28px 0 88px}
 .hero-grid{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);align-items:center;gap:48px}
-.faces{order:2;justify-self:end;gap:18px;padding-top:50px}
+.faces{order:2;justify-self:end;gap:18px;padding-top:64px}
 .faces img{width:180px;border-radius:24px}
-.faces svg{height:60px}
+.faces svg{height:auto}
 .flips{grid-template-columns:1fr 1fr;gap:16px}
 .cards{grid-template-columns:repeat(3,1fr)}
 .persons{grid-template-columns:1fr 1fr;gap:56px}

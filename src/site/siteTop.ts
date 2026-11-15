@@ -8,7 +8,7 @@ export const siteTop = `<header class="top">
 <section class="hero">
 <div class="wrap hero-grid">
 <div class="faces">
-<svg viewBox="0 0 240 44" preserveAspectRatio="none" aria-hidden="true"><path class="draw" id="heroArc" d="M4 42 C40 8 90 4 120 4 C160 4 205 14 236 34" vector-effect="non-scaling-stroke"/><circle cx="0" cy="0" r="5"><animateMotion id="heroDot" dur="7s" begin="0s" repeatCount="indefinite" keyPoints="0.5;1;0;0.5" keyTimes="0;0.25;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"><mpath href="#heroArc"/></animateMotion></circle></svg>
+<svg viewBox="0 0 240 44" aria-hidden="true"><path class="draw" id="heroArc" d="M4 42 C40 8 90 4 120 4 C160 4 205 14 236 34"/><circle cx="0" cy="0" r="5"><animateMotion id="heroDot" dur="7s" begin="0s" repeatCount="indefinite" keyPoints="0.5;1;0;0.5" keyTimes="0;0.25;0.75;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1;0.45 0 0.55 1"><mpath href="#heroArc"/></animateMotion></circle></svg>
 <img src="/sean.jpg" alt="Sean Stewart" width="560" height="700">
 <img src="/ulyana.jpg" alt="Ulyana Egof" width="560" height="700">
 </div>
