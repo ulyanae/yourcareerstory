@@ -3,7 +3,7 @@ export const siteBottom = `<article class="legal" id="privacy" hidden><div class
 <h1>Privacy policy</h1>
 <p class="upd">Last updated: November 2026</p>
 <h2>Who we are</h2>
-<p>Your Career Story is run by Sean Stewart Enterprise, De Stadspoort 32, 5611 GZ Eindhoven, the Netherlands (KVK 42129089). We are responsible for your personal data. Questions? Email <a href="mailto:yourcareerstory.coaching@gmail.com" target="_blank" rel="noopener">yourcareerstory.coaching@gmail.com</a>.</p>
+<p>Your Career Story is run by Sean Stewart Enterprise, Betaplein 278, 2321 KS Leiden, the Netherlands (KVK 42129089). We are responsible for your personal data. Questions? Email <a href="mailto:yourcareerstory.coaching@gmail.com" target="_blank" rel="noopener">yourcareerstory.coaching@gmail.com</a>.</p>
 <h2>What we collect, and why</h2>
 <ul>
 <li><strong>When you book a session or call:</strong> your name, email address and your answers in the booking form, such as the job ad link and your interview date. We use these to schedule and prepare your session.</li>
@@ -37,7 +37,7 @@ export const siteBottom = `<article class="legal" id="privacy" hidden><div class
 <h1>Terms and cancellation policy</h1>
 <p class="upd">Last updated: November 2026</p>
 <h2>1. Who we are</h2>
-<p>Your Career Story is run by Sean Stewart Enterprise, De Stadspoort 32, 5611 GZ Eindhoven, the Netherlands. KVK 42129089, VAT NL005518256B60. Email: <a href="mailto:yourcareerstory.coaching@gmail.com" target="_blank" rel="noopener">yourcareerstory.coaching@gmail.com</a>.</p>
+<p>Your Career Story is run by Sean Stewart Enterprise, Betaplein 278, 2321 KS Leiden, the Netherlands. KVK 42129089, VAT NL005518256B60. Email: <a href="mailto:yourcareerstory.coaching@gmail.com" target="_blank" rel="noopener">yourcareerstory.coaching@gmail.com</a>.</p>
 <h2>2. What we offer</h2>
 <ul>
 <li>A 90-minute online practice session with both of us, led by Sean. Price: €180, including VAT.</li>
@@ -75,7 +75,7 @@ export const siteBottom = `<article class="legal" id="privacy" hidden><div class
 <a class="logo" href="/" aria-label="Your Career Story, back to top"><svg width="28" height="23" viewBox="0 0 44 36" aria-hidden="true"><path d="M6 32 C8 14 16 6 22 6 C28 6 34 12 38 22" fill="none" stroke="var(--accent)" stroke-width="3.6" stroke-linecap="round"/><circle cx="22" cy="6" r="4.4" fill="var(--ink)"/></svg>Your Career Story</a>
 <nav aria-label="Stories and legal"><a href="https://substack.com/@yourcareerstory" target="_blank" rel="noopener">Read our stories</a><a href="/privacy">Privacy policy</a><a href="/terms">Terms and cancellation</a></nav>
 <p class="mail">Questions? Email us at <a href="mailto:yourcareerstory.coaching@gmail.com" target="_blank" rel="noopener">yourcareerstory.coaching@gmail.com</a></p>
-<p class="fine">Your Career Story is run by Sean Stewart Enterprise, De Stadspoort 32, 5611 GZ Eindhoven. KVK 42129089. VAT NL005518256B60.</p>
+<p class="fine">Your Career Story is run by Sean Stewart Enterprise, Betaplein 278, 2321 KS Leiden. KVK 42129089. VAT NL005518256B60.</p>
 <p class="fine">© 2026 Your Career Story</p>
 </div>
 </footer>

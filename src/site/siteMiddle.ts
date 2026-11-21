@@ -7,6 +7,7 @@ export const siteMiddle = `<section class="steps" data-arc="0.66">
 <li class="pop"><div><h3>Shape it into 90 seconds</h3><p>We build your answer to “Tell me about yourself” in four beats, with a few cue words instead of a script. So you sound like yourself, not like someone reciting, even in your second language.</p></div></li>
 <li class="pop"><div><h3>Say it out loud</h3><p>A mock interview with follow-up questions, a curveball, and the one question you dread most. So the first time you say it isn’t in the real interview.</p></div></li>
 </ol>
+<div class="outcome pop"><h3>You’ll walk into your interview:</h3><ul><li>Knowing what they’re really looking for</li><li>With the stories that prove it’s you</li><li>Having already said them out loud, follow-up questions and all</li></ul></div>
 </div>
 </section>
 
@@ -19,6 +20,7 @@ export const siteMiddle = `<section class="steps" data-arc="0.66">
 <h3>Interview coming up?</h3>
 <p>The 90-minute practice session. Online, with a storyteller and a hiring insider. We find what the company needs, shape your story, and rehearse it out loud.</p>
 <p class="price">€180, incl. VAT</p>
+<p>You worked hard to get this interview. Make it count.</p>
 <a class="btn btn-primary" href="https://cal.com/yourcareerstory/90min" target="_blank" rel="noopener">Book a practice session</a>
 </article>
 <article class="card pop">
@@ -72,6 +74,7 @@ export const siteMiddle = `<section class="steps" data-arc="0.66">
 <div class="wrap">
 <h2>Questions</h2>
 <details><summary>How does it work in practice?</summary><p>Pick a time and pay securely online. You’ll get a video call link by email. We both join, and Sean leads. Need to change the time? Up to 48 hours before, it’s free. <a href="/terms">Full terms</a></p></details>
+<details><summary>Is it worth €180?</summary><p>Think about what this job would mean to you over the next year. Next to that, €180 is a small part of the picture. We can’t promise you the offer. We can promise you’ll walk in ready.</p></details>
 <details><summary>I’m not a native English speaker. Is my English good enough for this?</summary><p>If you can do your job in English, yes. We don’t teach grammar. We work on what you say and how it lands. Small mistakes rarely cost anyone a job. A forgettable answer often does.</p></details>
 <details><summary>My interview is in two days. Is that too late?</summary><p>No, that’s exactly what the session is built for. Book the earliest free slot in the calendar. If you can’t find one that works, email us at <a href="mailto:yourcareerstory.coaching@gmail.com" target="_blank" rel="noopener">yourcareerstory.coaching@gmail.com</a> and we’ll do our best to fit you in.</p></details>
 <details><summary>Will you give me a script to memorise?</summary><p>No. Scripts sound memorised, and one unexpected question can knock you off track. You leave with your stories, a few cue words, and practice telling them in your own words.</p></details>
